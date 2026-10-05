@@ -1,0 +1,62 @@
+{
+  "version": "0.6.6",
+  "status": "prepared_distribution_candidate",
+  "proposed_public_repository": "fnkuroko-design/PDF_Handwriting-Releases",
+  "development_repository_visibility": "Private",
+  "build_source_commit": "30f48a424ae09fbc9ef8402c4d9174e454f89162",
+  "source_snapshot_sha256": "850DBBB7E9FFBC1E64C05E606FD89AE9EE989423A2515DF786E63375FB0B28A2",
+  "packaging_commit": "abafa0eb184af9da424cbd30375e49c93042d1fc",
+  "packaging_tracked_dirty": false,
+  "exe_sha256": "268FFDF1A0E5E12B155E1C33A03BD641C7387757EFFA18A1574D246F9F0A2B67",
+  "pdfium_sha256": "83BEDBA13A9A5226AC888147D7BBC87B886228C717B75F975FD225F15FC20563",
+  "archives": [
+    {
+      "file": "PDF_Handwriting_0.6.6_x64_portable_github.zip",
+      "sha256": "06B3C54D52E5C676DC7C1EA9B5A333366EFF9A62839D989E51BBC532DF06B066",
+      "bytes": 12819242
+    },
+    {
+      "file": "PDF_Handwriting_0.6.6_x64_portable_github.7z",
+      "sha256": "0FFC6E46E9742D8237800F4CBD232A9162F941BE3ED8339B77FC69759CE3B2E5",
+      "bytes": 8588740
+    }
+  ],
+  "file_count": 769,
+  "third_party_sources_sha256": "433E00139F63F0D808DC059D35F15E2875E48BBF3C0A0B9B5B997A089A2A5A11",
+  "verification": {
+    "zip_integrity_and_all_files_verified": true,
+    "seven_zip_integrity_and_all_files_verified": true,
+    "frontend_all_17_files_byte_identical_to_legacy_snapshot_build": true,
+    "qpdf_protection_tests_passed": 8,
+    "startup": {
+      "archive": "PDF手書き_0.6.6_x64_portable_github.7z",
+      "scope": "One extracted application startup, working directory outside the source tree; no PDF/print/DataClasys interaction",
+      "source_commit": "30f48a424ae09fbc9ef8402c4d9174e454f89162",
+      "exe_sha256": "268FFDF1A0E5E12B155E1C33A03BD641C7387757EFFA18A1574D246F9F0A2B67",
+      "file_version": "0.6.6",
+      "product_version": "0.6.6",
+      "authenticode_status": "NotSigned",
+      "responding": true,
+      "main_window_created": true,
+      "main_window_title": "PDF手書き Ver.0.6.6",
+      "passed": true,
+      "checked_at": "2026-10-05T23:38:44.0652527+09:00"
+    },
+    "local_path_matching_strings_in_exe_and_dll": 0,
+    "full_gui_pdf_print_dataclasys_verification": false
+  },
+  "inventory_scope": "Conservative dependency/attribution union, including build/dev candidates and fontkit reference versions; not an exact binary SBOM",
+  "public_scope": [
+    "Release archives and checksums",
+    "MIT LICENSE and user documentation",
+    "Build/packaging provenance",
+    "Third-party notices and required corresponding sources inside archives"
+  ],
+  "not_public": [
+    "Application development repository and history",
+    "Application source snapshot",
+    "User PDFs/stamps/logs/profiles",
+    "DataClasys binaries and Windows fonts"
+  ],
+  "github_asset_name_adjustment": "ASCII aliases preserve container bytes; original packaging filenames retained above"
+}
