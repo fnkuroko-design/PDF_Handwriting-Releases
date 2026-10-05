@@ -22,6 +22,11 @@ EXE、`bin`、`licenses`、利用案内・対応ソースを含むフォルダ�
 
 自作部分は[MITライセンス](LICENSE)で利用・改変・再配布できます。第三者成分にはそれぞれの条件を適用します。第三者の許諾・著作権・NOTICEと必要な対応ソースは、配布アーカイブへ同梱しています。再配布時もこれらを保持してください。
 
+本ソフトウェアは、Independent JPEG GroupおよびFreeType Teamの成果を一部利用しています。再配布時は、同梱の許諾本文に加えて次の謝辞も配布文書に保持してください。
+
+- This software is based in part on the work of the Independent JPEG Group.
+- This software is based in part on the work of the FreeType Team.
+
 ## このリポジトリの内容
 
 ここには配布物・利用案内・配布記録を保存します。アプリの開発リポジトリはPrivateで維持しています。GitHubが自動生成するSource code ZIP/tar.gzには、この配布用リポジトリの案内・記録を収録します。MPL対象等の第三者対応ソースは、配布アーカイブ内の`third-party-sources.zip`から無償取得できます。

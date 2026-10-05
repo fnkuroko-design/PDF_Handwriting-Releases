@@ -27,6 +27,11 @@ DataClasys連携は、配布先に導入済みのUserClientの`CLSUClient.exe`�
 
 自作部分は同梱`LICENSE`のMITライセンスで利用・改変・再配布できます。第三者成分にはそれぞれの条件を適用します。著作権・許諾・NOTICE等は`licenses`と`THIRD_PARTY_NOTICES.txt`にあり、MPL対象のRust成分・PDF.js SVGの対応ソースは同梱`third-party-sources.zip`で無償取得できます。
 
+本ソフトウェアは、Independent JPEG GroupおよびFreeType Teamの成果を一部利用しています。再配布時は、同梱の許諾本文に加えて次の謝辞も配布文書に保持してください。
+
+- This software is based in part on the work of the Independent JPEG Group.
+- This software is based in part on the work of the FreeType Team.
+
 依存一覧にはビルド・開発候補も含みます。fontkit 1.1.1の実際の配布JSの表記を保持し、内包成分について参照資料を補足しました。内包版を確定したSBOMとしては扱いません。詳細は`THIRD_PARTY_INVENTORY.json`を参照してください。
 
 ## 添付ファイル
