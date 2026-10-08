@@ -6,13 +6,13 @@ PDFに手書き・文字・図形・画像/PDFスタンプ等の注釈を追加�
 
 ## 使用方法
 
-1. Releasesから`PDF_Handwriting_0.6.6_x64_portable_github.zip`または7zを取得します。
+1. Releasesから`PDF_Handwriting_0.6.7_x64_portable_github.zip`または7zを取得します。
 2. 書き込み可能なフォルダーへすべて展開します。
 3. `PDF手書き-portable/PDF手書き.exe`を起動します。
 
 Windows 10/11 x64とMicrosoft Edge WebView2 Runtimeが必要です。文字注釈・日付スタンプにはWindowsのMSゴシック・MS P明朝を利用します。フォントファイルは同梱しません。
 
-EXE、`bin`、`licenses`、利用案内・対応ソースを含むフォルダー一式を保持してください。詳しい使い方と確認範囲は配布セットの`README.txt`と[0.6.6 Release案内](RELEASE_0.6.6.md)に記載しています。EXEはAuthenticode未署名です。
+EXE、`bin`、`licenses`、利用案内・対応ソースを含むフォルダー一式を保持してください。詳しい使い方と確認範囲は配布セットの`README.txt`と[0.6.7 Release案内](RELEASE_0.6.7.md)に記載しています。EXEはAuthenticode未署名です。
 
 ## 利用条件
 
