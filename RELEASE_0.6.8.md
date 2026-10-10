@@ -1,10 +1,8 @@
-# PDF手書き 0.6.8（訂正版・配布リビジョン2）
+# PDF手書き 0.6.8
 
 Windows 10/11 x64向けのポータブル版です。`PDF_Handwriting_0.6.8_x64_portable_github.zip`または同名の7zをダウンロードし、すべて展開して`PDF手書き.exe`を実行してください。Microsoft Edge WebView2 Runtimeが必要です。EXEだけを取り出さず、`bin`、`licenses`、利用案内・対応ソースを含むフォルダー一式を保持してください。
 
 更新時は別のフォルダーへ展開し、既存のPDFや登録スタンプを保持してください。PDF関連付けは新しい配置先の設定画面から更新できます。
-
-アプリの版番号は0.6.8のままです。2026-10-11に公開済みv0.6.8の配布物を訂正版へ差し替えました。変更一覧は0.6.7以後の内容です。
 
 ## 0.6.7からの変更
 
@@ -47,7 +45,7 @@ GitHubの自動生成Source code ZIP/tar.gzは、配布用リポジトリの案�
 
 | ファイル | サイズ | SHA-256 |
 |---|---:|---|
-| `PDF_Handwriting_0.6.8_x64_portable_github.zip` | 13,074,487 bytes | `DCA1389FCC2315D747A7756C1437D1DD61D3C8885E38D5318CC6856D014A6EAC` |
-| `PDF_Handwriting_0.6.8_x64_portable_github.7z` | 8,762,394 bytes | `60D1326FC2A1F5561C65EFFB1573E2F7544BC59002E56A299EEF6F9288B7FDA7` |
+| `PDF_Handwriting_0.6.8_x64_portable_github.zip` | 13,074,466 bytes | `3D710BFA5791C195D9DEC2543395587AAE60AB9889B7D1E9D6635C7FCF800156` |
+| `PDF_Handwriting_0.6.8_x64_portable_github.7z` | 8,762,231 bytes | `C11C2F4D59F801673EA36DC470DDD50857C84B2F192D1A9CD000ED0BD9191BBF` |
 
-全769ファイルを同梱しています。EXEのビルド元は`ea1bdfd993ca3f94d6d819715ca4552eae4435dd`、包装元は`f87c34943dc085faed7b075219c9f83075d771ab`です。フロントエンドは938件成功・1件除外、Rustは50件成功・17件手動実行用の除外でした。
+全769ファイルを同梱しています。EXEのビルド元は`ea1bdfd993ca3f94d6d819715ca4552eae4435dd`、包装元は`1aed814ba783666fb1075f5a3bbfd73a4839572f`です。フロントエンドは938件成功・1件除外、Rustは50件成功・17件手動実行用の除外でした。

@@ -1,26 +1,26 @@
 {
   "version": "0.6.8",
-  "distribution_revision": 2,
+  "distribution_revision": 3,
   "release_tag": "v0.6.8",
   "status": "formal_release_distribution",
   "public_repository": "fnkuroko-design/PDF_Handwriting-Releases",
   "development_repository_visibility": "Private",
   "build_source_commit": "ea1bdfd993ca3f94d6d819715ca4552eae4435dd",
   "source_snapshot_sha256": "8D2AD5AF426E9A16161C0C3D733790A84699B15028BA4EC9C11C8D779825C7EC",
-  "packaging_commit": "f87c34943dc085faed7b075219c9f83075d771ab",
+  "packaging_commit": "1aed814ba783666fb1075f5a3bbfd73a4839572f",
   "packaging_tracked_dirty": false,
   "exe_sha256": "42443CB7D1EF8992090AA17FF6FB543EED5B6FD455178B23C48D16081C0B6B2F",
   "pdfium_sha256": "83BEDBA13A9A5226AC888147D7BBC87B886228C717B75F975FD225F15FC20563",
   "archives": [
     {
       "file": "PDF_Handwriting_0.6.8_x64_portable_github.zip",
-      "sha256": "DCA1389FCC2315D747A7756C1437D1DD61D3C8885E38D5318CC6856D014A6EAC",
-      "bytes": 13074487
+      "sha256": "3D710BFA5791C195D9DEC2543395587AAE60AB9889B7D1E9D6635C7FCF800156",
+      "bytes": 13074466
     },
     {
       "file": "PDF_Handwriting_0.6.8_x64_portable_github.7z",
-      "sha256": "60D1326FC2A1F5561C65EFFB1573E2F7544BC59002E56A299EEF6F9288B7FDA7",
-      "bytes": 8762394
+      "sha256": "C11C2F4D59F801673EA36DC470DDD50857C84B2F192D1A9CD000ED0BD9191BBF",
+      "bytes": 8762231
     }
   ],
   "file_count": 769,
@@ -61,7 +61,14 @@
     "approved_development_version": "0.6.8-dev.8",
     "native_input_and_pdf_visual_verification": false,
     "full_gui_pdf_print_external_client_verification": false,
-    "page_creation_insertion_save_reload_final_exe_gui": false
+    "page_creation_insertion_save_reload_final_exe_gui": false,
+    "documentation_only_update": {
+      "changed_package_files": [
+        "README.txt"
+      ],
+      "other_768_files_identical": true,
+      "executable_not_rebuilt": true
+    }
   },
   "known_limitations": [
     "Windows/WebView2 touch keyboard automatic display is not guaranteed, including without a physical keyboard; this behavior was accepted for the formal release",
