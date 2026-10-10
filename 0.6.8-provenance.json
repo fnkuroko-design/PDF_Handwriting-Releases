@@ -1,24 +1,26 @@
 {
   "version": "0.6.8",
+  "distribution_revision": 2,
+  "release_tag": "v0.6.8",
   "status": "formal_release_distribution",
   "public_repository": "fnkuroko-design/PDF_Handwriting-Releases",
   "development_repository_visibility": "Private",
-  "build_source_commit": "37fd785571f840889e6a2bfbf565e0da054cb4a7",
-  "source_snapshot_sha256": "BD9DD7A8FFCFD08877D6B07EC614DFF217C85AA42CFDBEA496C672373D720433",
-  "packaging_commit": "1da48b3d83231184239e6184fb56bbd090be3d40",
+  "build_source_commit": "ea1bdfd993ca3f94d6d819715ca4552eae4435dd",
+  "source_snapshot_sha256": "8D2AD5AF426E9A16161C0C3D733790A84699B15028BA4EC9C11C8D779825C7EC",
+  "packaging_commit": "f87c34943dc085faed7b075219c9f83075d771ab",
   "packaging_tracked_dirty": false,
-  "exe_sha256": "F50F54282279C65203BB1827C8C1917D082E7DF39E739B375CFF3EFEB63D2F6E",
+  "exe_sha256": "42443CB7D1EF8992090AA17FF6FB543EED5B6FD455178B23C48D16081C0B6B2F",
   "pdfium_sha256": "83BEDBA13A9A5226AC888147D7BBC87B886228C717B75F975FD225F15FC20563",
   "archives": [
     {
       "file": "PDF_Handwriting_0.6.8_x64_portable_github.zip",
-      "sha256": "5838D6930FACC6F45CE34D606FAB9CB340D875F5F9D717C437D7A7DACA2ED93E",
-      "bytes": 13073488
+      "sha256": "DCA1389FCC2315D747A7756C1437D1DD61D3C8885E38D5318CC6856D014A6EAC",
+      "bytes": 13074487
     },
     {
       "file": "PDF_Handwriting_0.6.8_x64_portable_github.7z",
-      "sha256": "44DAB39ED550AEEB4AE5D7E6898771AC8F3C4BCFE1413B4ACD996B32980E819F",
-      "bytes": 8771052
+      "sha256": "60D1326FC2A1F5561C65EFFB1573E2F7544BC59002E56A299EEF6F9288B7FDA7",
+      "bytes": 8762394
     }
   ],
   "file_count": 769,
@@ -26,7 +28,7 @@
   "verification": {
     "typecheck": "passed",
     "frontend_tests": {
-      "passed": 923,
+      "passed": 938,
       "skipped": 1,
       "failed": 0
     },
@@ -40,7 +42,7 @@
     "seven_zip_integrity_and_all_files_verified": true,
     "startup": {
       "passed": true,
-      "source": "7z-extracted package copied to a separate smoke directory",
+      "source": "7z-extracted earlier revision-2 candidate; identical executable hash verified in final replacement package",
       "scope": "Process startup, responsiveness and version title only; no PDF or input automation",
       "window_title": "PDF手書き Ver.0.6.8",
       "responding": true,
@@ -49,12 +51,14 @@
       "closed_after_check": true,
       "native_input_automation": false,
       "pdf_visual_verification": false,
-      "canonical_package_all_files_unchanged": true
+      "canonical_package_all_files_unchanged": true,
+      "reused_identical_executable_check": true,
+      "executable_sha256": "42443CB7D1EF8992090AA17FF6FB543EED5B6FD455178B23C48D16081C0B6B2F"
     },
     "local_path_matching_strings_in_exe_and_dll": 0,
     "operation_diagnostic_identifiers_in_frontend_and_exe": 0,
-    "dependency_versions_and_public_assets_unchanged_from_0_6_7": true,
-    "approved_development_version": "0.6.8-dev.5",
+    "dependency_versions_unchanged_from_initial_0_6_8": true,
+    "approved_development_version": "0.6.8-dev.8",
     "native_input_and_pdf_visual_verification": false,
     "full_gui_pdf_print_external_client_verification": false,
     "page_creation_insertion_save_reload_final_exe_gui": false

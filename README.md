@@ -12,7 +12,7 @@ PDFに手書き・文字・図形・画像/PDFスタンプ等の注釈を追加�
 
 Windows 10/11 x64とMicrosoft Edge WebView2 Runtimeが必要です。文字注釈・日付スタンプにはWindowsのMSゴシック・MS P明朝を利用します。フォントファイルは同梱しません。
 
-EXE、`bin`、`licenses`、利用案内・対応ソースを含むフォルダー一式を保持してください。詳しい使い方と確認範囲は配布セットの`README.txt`と[0.6.8 Release案内](RELEASE_0.6.8.md)に記載しています。EXEはAuthenticode未署名です。
+EXE、`bin`、`licenses`、利用案内・対応ソースを含むフォルダー一式を保持してください。詳しい使い方と0.6.7からの変更・確認範囲は配布セットの`README.txt`と[0.6.8 訂正版Release案内](RELEASE_0.6.8.md)に記載しています。アプリの版番号は0.6.8で、公開済み`v0.6.8`の添付を訂正版（配布リビジョン2）へ差し替えています。EXEはAuthenticode未署名です。
 
 ## 利用条件
 
